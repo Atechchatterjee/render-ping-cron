@@ -1,0 +1,15 @@
+{
+  "name": "render-node-cron",
+  "version": "1.0.0",
+  "description": "This is a cron-job server to ping the free instance of render go app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
+  }
+}
