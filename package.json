@@ -4,7 +4,8 @@
   "description": "This is a cron-job server to ping the free instance of render go app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env index"
   },
   "author": "",
   "license": "ISC",
